@@ -11,7 +11,8 @@
 			<h1 class="text-2xl">
 				{book.title}
 			</h1>
-			<span class="max-w-[700px] italic">{book.description}</span>
+			<span class="max-w-[700px]">{book.description}</span>
+			<a class="text-blue-700" href={book.link}>Amazon link</a>
 		</div>
 	{/each}
 </div>
